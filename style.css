@@ -1,0 +1,127 @@
+body {
+    font-size: 13pt;
+   
+}
+
+
+div.nav{
+  position :fixed;
+}
+ul.nav{
+  position : absolute ;
+  overflow: auto;
+  margin-left:-350px;
+  background-color: white;
+  position :fixed;
+  margin-top: 0px;
+  padding: 20px;
+  border: 1px solid black;
+}
+div.nav:hover  ul.nav{
+  margin-left:-10px;
+  margin-right: 20px;
+}
+ul.nav li{
+  list-style-type: none;
+  margin-right: 20px;
+  margin-top:30px;
+  margin-bottom: 30px;
+  
+}
+ul.nav li a{
+  color :red;
+  text-decoration: none;
+  margin-right:20px;
+  margin-left: 20px;
+}
+li a i{
+  bottom: 20px;
+  margin: 0px;
+}
+div.nav i {
+  font-size: 30px;
+  margin-top: -50px;
+  postion : absolute ;
+}
+
+
+
+
+h1 img{
+  position:fixed;
+  margin-top: -40px;
+  margin-left: -15px;
+  height :200px;
+}
+img {
+  width:100%;
+  height: auto;
+  margin-top: 0px;
+  background-color:white;
+}
+
+
+
+
+p.donate {
+  border : 1px solid red;
+  text-align: center;
+  margin-left: 110px;
+  margin-right:110px;
+  margin-top:-30px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  background-color:red;
+  color:white;
+  font-weight: bold;
+}
+p.donate a {
+  text-decoration: none;
+  color:white;
+}
+
+p.donat{
+  font-size: 17px;
+  text-align:center;
+  background-image:url("img/child happy.png");
+  background-size:100% auto;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+p.donat b {
+  font-size: 40px;
+  font-weight: normal;
+}
+div.stat {
+  background-color: #6A9465;
+  border-radius: 10px;
+  text-align: center;
+  padding-top:5px;
+  color: white;
+}
+p.no {
+  font-size: 70px;
+}
+
+
+
+
+
+footer{
+  background-color: #616161;
+  color:white;
+  margin:-25px;
+  padding:25px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+a i{
+  font-size: 25px;
+  margin: 5px;
+}
